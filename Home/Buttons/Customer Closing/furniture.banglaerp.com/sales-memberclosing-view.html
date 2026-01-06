@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Member Closing | Bangla ERP :: (Showroom/Super shop Management Software)
+
+    </title>
+    <meta property="og:title" content="Dashboard">
+    <meta name="author" content="Peart Technology Limited">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="eKisti || Microfinance Solutions">
+    <meta property="og:description" content="eKisti || Microfinance Solutions">
+    <meta property="og:site_name" content="eKisti || Microfinance Solutions">
+    <script type="application/ld+json"></script>
+    <link rel="apple-touch-icon" sizes="144x144" href="/media/logo_image/banglaerpdelar.png">
+    <link rel="shortcut icon" href="/media/logo_image/banglaerpdelar.png">
+    <meta name="theme-color" content="#3063A0">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="/static/assets/vendor/open-iconic/css/open-iconic-bootstrap.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/vendor/fontawesome/css/all.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/vendor/select2/css/select2.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/vendor/datatables/extensions/responsive/responsive.bootstrap4.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/stylesheets/theme.min.css?v=1.0.6.25" data-skin="default">
+    <link rel="stylesheet" href="/static/assets/stylesheets/theme-dark.min.css?v=1.0.6.25" data-skin="dark">
+    <link rel="stylesheet" href="/static/assets/vendor/sweetalert/sweetalert2.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/vendor/owlcarousel/assets/owl.carousel.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/vendor/owlcarousel/assets/owl.theme.default.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/javascript/cropper/cropper.min.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/stylesheets/custom.css?v=1.0.6.25">
+
+    <link rel="stylesheet" href="/static/assets/css/custom.css?v=1.0.6.25">
+    <link rel="stylesheet" href="/static/assets/stylesheets/remixicon.css?v=1.0.6.25">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+
+
+    <script>
+        var skin = localStorage.getItem('skin') || 'default';
+        var unusedLink = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+        unusedLink.setAttribute('rel', '');
+        unusedLink.setAttribute('disabled', true);
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="app-header app-header-dark">
+            <div class="conatinaer-fluid">
+                <div class="row bg-white text-danger">
+
+                </div>
+            </div>
+            <div class="top-bar">
+                <div class="top-bar-brand">
+                    <button class="hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span
+                class="hamburger-inner"></span></span></button>
+                    <a href="/appauth-home">
+            <img src="/media/logo_image/banglaerpdelar.png" style="width: 135px;" />
+          </a>
+                </div>
+
+                <div class="top-bar-list">
+                    <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+                        <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside" aria-label="toggle menu"><span
+                class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+                    </div>
+
+                    <div class="top-bar-item top-bar-item-full d-none d-sm-block">
+                        <div class="row w-100">
+                            <div class="col-md-12 col-sm-8">
+                                <div style="height: 50px; padding-top: 10px; overflow: hidden;">
+                                    <marquee>
+                                        <h3>Bangla ERP (Showroom/Super shop Management Software)</h3>
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="top-bar-item top-bar-item-full">
+                        <h4 class="p-1 text-center d-none d-md-block" style="color:#e98b10; width:100%">06-Jan-2026</h4>
+                        <h4 class="p-1 text-center d-block d-md-none" style="color:#e98b10; width:100%;font-size: 1.2rem;">06-Jan-2026</h4>
+                    </div>
+
+                    <!-- <div class="pr-3 d-block d-md-none">
+          <input type="text" class="form-control" id="top-bar-gobal-search-input" onkeyup="TopbarGobalSearch()" aria-describedby="gobal-search"
+          style="border: 1px solid #ced4da; border-radius: 0.25rem; margin: 5px; height: 25px;" placeholder="Search">
+          <div class="w-100" style="position: absolute; padding: 0; border-radius: 5px; z-index: 100; background: #f5f2f2;">
+            <div id="top-bar-search-result">
+
+            </div>
+          </div>
+        </div> -->
+
+                    <div class="top-bar-item top-bar-item-right px-0">
+                        <!--Language Togole-->
+                        <div class="switch-button switch-button-xs">
+                            <input type="checkbox" name="lng_togole" id="lng_togole" onclick="fn_lng_togole()">
+                            <span><label for="lng_togole"></label></span>
+                        </div>
+                        <!--Language Togole-->
+                        <ul class="header-icon nav d-none d-md-flex">
+
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Change Branch">
+                                <a href="#" target="_blank" data-toggle="modal" data-target="#branchModal">
+                  <img src="/static/assets/images/short/branch.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Software Review">
+                                <a href="#" target="_blank">
+                  <img src="/static/assets/images/logo/google.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Facebook Update">
+                                <a href="#" target="_blank">
+                  <img src="/static/assets/images/logo/facebook.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="YouTube Tutorial">
+                                <a href="#" target="_blank">
+                  <img src="/static/assets/images/logo/youtube.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Online Bill Payment">
+                                <a href="/billpay-bill-list">
+                  <img src="/static/assets/images/logo/payment.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Online Support Center">
+                                <a href="javascript:void(0);" onclick="startOnlineChat()">
+                  <img src="/static/assets/images/logo/live-chat.png" style="width: 2.3rem; height: 2.3rem; border-radius: 5px;">
+                </a>
+                            </li>
+                        </ul>
+
+                        <!--             
+            <ul class="header-nav nav">
+              <li class="nav-item dropdown header-nav-dropdown">
+                <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+                    class="oi oi-grid-three-up"></span></a>
+                <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+                  <div class="dropdown-arrow"></div>
+                  <div class="dropdown-sheets">
+                    
+                    
+                    
+                    
+                    
+                    
+                  </div>
+                </div>
+              </li>
+            </ul>
+          -->
+                        <div class="dropdown d-flex">
+                            <button class="btn-account" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="user-avatar user-avatar-md">
+                  <img src="/static/assets/images/avatars/profile.jpg" alt=""></span> 
+                    <span class="account-summary pr-lg-4 d-none d-md-block">
+                      <span class="account-name">Rafik</span> 
+                      <span class="account-description"> 101 - প্রধান শাখা </span>
+                    </span>
+                </button>
+                            <div class="dropdown-menu" style="width: 250px; left: -170px;">
+                                <div class="dropdown-arrow ml-3"></div>
+                                <h6 class="dropdown-header"> Rafik </h6>
+                                <div class="card d-md-none">
+                                    <div class="card-body d-flex">
+
+                                        <ul class="nav-list">
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Change Branch">
+                                                <a href="#" target="_blank" data-toggle="modal" data-target="#branchModal">
+                    <img src="/static/assets/images/short/branch.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">Change Branch</p>
+                  </a>
+                                            </li>
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Software Review">
+                                                <a href="#" target="_blank">
+                    <img src="/static/assets/images/logo/google.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">Software Review</p>
+                  </a>
+                                            </li>
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Facebook Update">
+                                                <a href="#" target="_blank">
+                    <img src="/static/assets/images/logo/facebook.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">Facebook Update</p>
+                  </a>
+                                            </li>
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="YouTube Tutorial">
+                                                <a href="#" target="_blank">
+                    <img src="/static/assets/images/logo/youtube.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">YouTube Tutorial</p>
+                  </a>
+                                            </li>
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Online Bill Payment">
+                                                <a href="/billpay-bill-list">
+                    <img src="/static/assets/images/logo/payment.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">Online Bill Payment</p>
+                  </a>
+                                            </li>
+                                            <li class="nav-item" style="padding-top:6px;" data-toggle="tooltip" data-placement="bottom" title="Online Support Center">
+                                                <a href="javascript:void(0);" onclick="startOnlineChat()">
+                    <img src="/static/assets/images/logo/live-chat.png" style="width: 1.3rem; height: 1.3rem;">
+                    <p class="px-2 text-dark">Online Support Center</p>
+                  </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <aside class="app-aside app-aside-expand-md app-aside-light">
+            <div class="aside-content">
+
+                <div class="aside-menu overflow-hidden side_menu_bar">
+
+                    <nav id="new-stacked-menu" class="stacked-menu">
+                        <ul class="menu">
+                            <li class="menu-item has-active d-sm-block d-md-none">
+                                <a href="/appauth-home" class="menu-link"><span class="menu-icon fas fa-home"></span>
+                  <span class="menu-text"> Home </span></a>
+                            </li>
+
+
+
+
+
+                            <li class="menu-item">
+                                <a href="/appauth-home" class="menu-link" data-program-names="">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-home" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Home</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/crm" class="menu-link" data-program-names="/sales-clients-createlist, /sales-clients-list, /sales-memberclosing-view">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fas fa-users" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Customer &amp; CRM</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/finance" class="menu-link" data-program-names="/finance-account-transaction, /finance-ledger-transaction, /finance-journal-voucher-createlist, /finance-transfer-transaction-createlist, /finance-transaction-voucherlist, /finance-transaction-query, /appauth-transaction-authlist, /finance-transaction-authlist, /finance-ibrorg-transaction, /finance-ibrtran-list, /sales-ib-product-sales, /sales-ib-product-sales-list, /finance-report-ibrbranchbalance, /finance-report-ibrbranchstatement, /finance-telbaltrf-view, /finance-telbaltrf-authlist, /finance-report-teller-balance, /finance-report-teller-transaction, /finance-report-account-balance, /finance-report-account-recpay, /finance-report-accountstatement, /finance-report-client-allaccountstatement, /finance-report-cashnbank, /finance-report-cashtrandetails, /finance-report-ledgerstatements, /finance-report-receiptpayment, /finance-report-receiptpayment-two, /finance-report-assetliabilities, /finance-report-assetliabilitiestab, /finance-report-incomeexpenses, /finance-report-incomeexpensestab, /finance-report-profitloss, /finance-report-trialbalance, /finance-report-trialbalancetab">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-wallet" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Accounts</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/purchase" class="menu-link" data-program-names="/sales-productgroup-createlist, /sales-productbrand-createlist, /sales-products-createlist, /sales-products-list, /sales-products-barcode, /sales-supplier-createlist, /sales-quickpurchase-master, /sales-purchase-list, /sales-purchase-returnproduct, /sales-purchasereturn-list, /sales-damage-entry, /sales-damage-list, /sales-store-createlist, /sales-storetran-master, /sales-storetran-list, /sales-report-storeinventory, /sales-store-entry-list-report, /sales-ecommerce-categories, /sales-ecommerce-subcategories, /sales-ecommerce-finalcategories, /sales-report-stockinventory, /sales-report-stockinventorybatch, /sales-report-daywisepurchase, /sales-report-daywise-purchasenreturn, /sales-report-daywise-purchasenreturnstmt">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-shopping-bag" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Purchase</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/sales" class="menu-link" data-program-names="/sales-sales-create, /sales-pos-sales, /sales-quick-sales, /sales-invoice-list, /sales-order-create, /sales-order-list, /sales-orderdelivery-list, /sales-report-daywisesales, /sales-report-salesdetails, /sales-report-centersalesdetails, /sales-report-cashinvoice, /sales-report-profitnloss, /sales-report-emidetails">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-shopping-cart" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Sales</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/hrm" class="menu-link" data-program-names="/hrm-empsalsarysetup-view, /hrm-empsalsaryprocess-view, /hrm-empsalsaryprocess-listview, /hrm-empsalsaryprocess-emplist, /hrm-empsalsaryprocess-mypayslip">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-users" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">HRM</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/savings" class="menu-link" data-program-names="/finance-accountopen-createlist, /finance-accounts-balance, /micfin-profitpayment-createlist, /micfin-deprofmac-view, /micfin-deprofmac-postlist, /micfin-report-memberprofitbal, /micfin-report-zerotransaction">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-money-bill-wave" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Deposit</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/investment" class="menu-link" data-program-names="/sales-emisetup-createlist, /sales-emircv-view, /sales-emireceivecancel-view, /sales-emireschedule-createlist, /sales-emiwaive-view, /sales-emipenalty-view, /micfin-staffloanacopen-createlist, /sales-staffemircv-view, /sales-staffemireceivecancel-view, /micfin-report-emirecovery, /micfin-report-emiinvreceive, /micfin-report-emidisbursement, /micfin-report-emidisbncollect, /micfin-report-emifullypaid, /micfin-report-emiwaiver">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fas fa-money-check-alt" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Loan &amp; Investment</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/collection" class="menu-link" data-program-names="/micfin-report-empcollsum, /micfin-report-memberbalance">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fas fa-calendar-alt" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Collection</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/sms" class="menu-link" data-program-names="/sms-template-form, /sms-sent-query, /sms-que-form, /sms-que-form2, /micfin-emiinstsmsset-view">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fas fa-sms" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">SMS</span></a>
+                            </li>
+
+
+                            <li class="menu-item">
+                                <a href="/app/settings" class="menu-link" data-program-names="/micfin-center-createlist, /micfin-centedaychange-createlist, /micfin-centeempchange-createlist, /appauth-dayclosing-transaction, /appauth-branch-createlist, /appauth-employee-createlist, /appauth-director-createlist, /appauth-topbar-notice, /appauth-country-createlist, /appauth-division-createlist, /appauth-district-createlist, /appauth-upazila-createlist, /appauth-union-createlist, /appauth-village-createlist, /appauth-workingarea-createlist">
+                      <span style="font-size: 1.2rem; margin-right: -10px !important;">
+                        <i class="fa-solid fa fa-cog" style="color:#346cb0"></i>
+                      </span> 
+                      <span class="menu-text menu-header">Settings</span></a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+                    </nav>
+                </div>
+
+                <footer class="aside-footer border-top p-3">
+                    <button class="btn btn-light btn-block text-primary" data-toggle="skin">Night mode <i
+              class="fas fa-moon ml-1"></i></button>
+                </footer>
+            </div>
+        </aside>
+
+        <main class="app-main" id="root_app_main">
+            <div class="wrapper">
+                <!-- <div class="hover-notification">
+          <div class="page-message hide" id="id_alert_show_in_frontend" role="alert">
+            <span class="mr-2" id="id_msg_show_in_frontend"></span>  <a href="#" class="btn btn-sm btn-icon btn-warning" aria-label="Close" onclick="$(this).parent().fadeOut()"><span aria-hidden="true"><i class="fa fa-times"></i></span></a>
+          </div>
+        </div> -->
+
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card card-fluid">
+                            <div class="card-body">
+                                <div>
+                                    <form method="post" id="tran_table_data" data-url="/sales-memberclosing-insert" class="update-form">
+                                        <div class="form-group">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-10 mb-0">
+                                                            <h3 class="card-title" name="MEMBER_CLOSING_TITLE"> Member Closing</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <input type="hidden" name="csrfmiddlewaretoken" value="3GnJtLQiudDcm9r8Y0sHXeX95hFs6ZASMOAmYDQyBSve0cocpDgtr0ErpQAKl3WX">
+                                                        <div class="form-row">
+
+                                                            <input type='hidden' id='id_branch_code' name='branch_code' value={{ global_branch_code }} readonly>
+
+                                                            <div class="form-group col-md-3 mb-0">
+
+
+
+
+                                                                <div id="div_id_client_id" class="form-group">
+
+
+                                                                    <label for="id_client_id" class=" requiredField">
+                Member ID<span class="asteriskField">*</span>
+            </label>
+
+
+
+
+
+
+
+
+                                                                    <div>
+
+
+                                                                        <input type="text" name="client_id" maxlength="20" class="textinput form-control" required id="id_client_id">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    </div>
+
+
+                                                                </div>
+
+
+
+                                                            </div>
+                                                            <div class="form-group col-md-3 mb-0">
+
+
+
+
+                                                                <div id="div_id_closing_date" class="form-group">
+
+
+                                                                    <label for="id_closing_date" class=" requiredField">
+                Closing Date<span class="asteriskField">*</span>
+            </label>
+
+
+
+
+
+
+
+
+                                                                    <div>
+
+
+                                                                        <input type="date" name="closing_date" value="2026-01-06" readonly class="dateinput form-control" required id="id_closing_date">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    </div>
+
+
+                                                                </div>
+
+
+
+                                                            </div>
+                                                            <div class="form-group col-md-3 mb-0">
+
+
+
+
+                                                                <div id="div_id_closing_reason" class="form-group">
+
+
+                                                                    <label for="id_closing_reason" class=" requiredField">
+                Closing Reason<span class="asteriskField">*</span>
+            </label>
+
+
+
+
+
+
+
+
+                                                                    <div>
+
+
+                                                                        <input type="text" name="closing_reason" maxlength="200" class="textinput form-control" required id="id_closing_reason">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    </div>
+
+
+                                                                </div>
+
+
+
+                                                            </div>
+
+                                                            <input type="hidden" id="id_otp_code" name="otp_code">
+
+                                                        </div>
+                                                        <button type="button" id="btnAddItem" class="btn btn-primary" name="SUBMIT_CLOSING_BUTTON">Submit Closing</button>
+                                                        <button type="button" id="btnSearch" class="btn btn-info pull-right" name="SEARCH_CLOSING_BUTTON"> Search Closing</button>
+
+                                                        <button type="button" id="btnReomveClient" class="btn btn-danger float-right" name="DELETE_MEMBER_BUTTON"> Delete Member</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div </div>
+                        </div>
+                        <div class="app">
+
+                            <div class="card card-fluid">
+                                <div class="card-body">
+                                    <table id="dt-table-list" class="table dt-responsive nowrap w-100">
+                                        <thead>
+                                            <tr>
+                                                <th> Member ID </th>
+                                                <th> Closing Date </th>
+                                                <th> Closing Reason</th>
+                                                <th> Delete/Closing</th>
+                                                <th> Closed By</th>
+                                                <th> Closed On</th>
+                                                <th> Cancel By</th>
+                                                <th> Cancel On</th>
+                                                <th> Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <th> Member ID </th>
+                                                <th> Closing Date </th>
+                                                <th> Closing Reason</th>
+                                                <th> Delete/Closing</th>
+                                                <th> Closed By</th>
+                                                <th> Closed On</th>
+                                                <th> Cancel By</th>
+                                                <th> Cancel On</th>
+                                                <th> Action</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="edit_model" role="dialog">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <input type='hidden' id='id_global_branch_code' class='global_branch_code' value=101 readonly>
+                    <input type='hidden' id='id_is_head_office_user' class='is_head_office_user' value=False readonly>
+                    <input type='hidden' id='id_is_back_date_posting' class='is_back_date_posting' value=r eadonly>
+                    <input type='hidden' id='is_location_tracking_on' class='is_location_tracking_on' value=N readonly>
+
+                    <input type='hidden' id='id_user_full_name' class='user_full_name' value=Rafik readonly>
+                    <input type='hidden' id='id_user_email_address' class='user_email_address' value=r eadonly>
+                    <input type='hidden' id='id_online_chat_hash' class='online_chat_hash' value=r eadonly>
+                    <input type='hidden' id='id_chat_phone_number' class='chat_phone_number' value=r eadonly>
+                    <input type='hidden' id='id_online_chat_id' class='online_chat_id' value=r eadonly>
+                    <input type='hidden' id='id_maps_api_key' class='maps_api_key' value=None readonly>
+
+
+                    <footer class="app-footer">
+                        <div class="copyright d-none d-md-block"> Powered By <a href="https://www.banglaerp.com/" target="_blank"> Peart Technology Limited. </a> </div>
+                        <div class="d-block d-md-none position-relative" style="height: 35px;">
+                            <div class="fixed-bottom bg-white" style="z-index: 10;">
+
+
+                                <div class="owl-carousel mobile-module">
+
+
+                                    <a href="/appauth-home" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="">
+                    <span>
+                        <i class="fa-solid fa fa-home" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Home</span>
+                </a>
+
+
+
+                                    <a href="/app/crm" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/sales-clients-createlist, /sales-clients-list, /sales-memberclosing-view">
+                    <span>
+                        <i class="fa-solid fas fa-users" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">CRM</span>
+                </a>
+
+
+
+                                    <a href="/app/finance" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/finance-account-transaction, /finance-ledger-transaction, /finance-journal-voucher-createlist, /finance-transfer-transaction-createlist, /finance-transaction-voucherlist, /finance-transaction-query, /appauth-transaction-authlist, /finance-transaction-authlist, /finance-ibrorg-transaction, /finance-ibrtran-list, /sales-ib-product-sales, /sales-ib-product-sales-list, /finance-report-ibrbranchbalance, /finance-report-ibrbranchstatement, /finance-telbaltrf-view, /finance-telbaltrf-authlist, /finance-report-teller-balance, /finance-report-teller-transaction, /finance-report-account-balance, /finance-report-account-recpay, /finance-report-accountstatement, /finance-report-client-allaccountstatement, /finance-report-cashnbank, /finance-report-cashtrandetails, /finance-report-ledgerstatements, /finance-report-receiptpayment, /finance-report-receiptpayment-two, /finance-report-assetliabilities, /finance-report-assetliabilitiestab, /finance-report-incomeexpenses, /finance-report-incomeexpensestab, /finance-report-profitloss, /finance-report-trialbalance, /finance-report-trialbalancetab">
+                    <span>
+                        <i class="fa-solid fa fa-wallet" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Accounts</span>
+                </a>
+
+
+
+                                    <a href="/app/purchase" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/sales-productgroup-createlist, /sales-productbrand-createlist, /sales-products-createlist, /sales-products-list, /sales-products-barcode, /sales-supplier-createlist, /sales-quickpurchase-master, /sales-purchase-list, /sales-purchase-returnproduct, /sales-purchasereturn-list, /sales-damage-entry, /sales-damage-list, /sales-store-createlist, /sales-storetran-master, /sales-storetran-list, /sales-report-storeinventory, /sales-store-entry-list-report, /sales-ecommerce-categories, /sales-ecommerce-subcategories, /sales-ecommerce-finalcategories, /sales-report-stockinventory, /sales-report-stockinventorybatch, /sales-report-daywisepurchase, /sales-report-daywise-purchasenreturn, /sales-report-daywise-purchasenreturnstmt">
+                    <span>
+                        <i class="fa-solid fa fa-shopping-bag" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Purchase</span>
+                </a>
+
+
+
+                                    <a href="/app/sales" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/sales-sales-create, /sales-pos-sales, /sales-quick-sales, /sales-invoice-list, /sales-order-create, /sales-order-list, /sales-orderdelivery-list, /sales-report-daywisesales, /sales-report-salesdetails, /sales-report-centersalesdetails, /sales-report-cashinvoice, /sales-report-profitnloss, /sales-report-emidetails">
+                    <span>
+                        <i class="fa-solid fa fa-shopping-cart" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Sales</span>
+                </a>
+
+
+
+                                    <a href="/app/hrm" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/hrm-empsalsarysetup-view, /hrm-empsalsaryprocess-view, /hrm-empsalsaryprocess-listview, /hrm-empsalsaryprocess-emplist, /hrm-empsalsaryprocess-mypayslip">
+                    <span>
+                        <i class="fa-solid fa fa-users" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">HRM</span>
+                </a>
+
+
+
+                                    <a href="/app/savings" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/finance-accountopen-createlist, /finance-accounts-balance, /micfin-profitpayment-createlist, /micfin-deprofmac-view, /micfin-deprofmac-postlist, /micfin-report-memberprofitbal, /micfin-report-zerotransaction">
+                    <span>
+                        <i class="fa-solid fa fa-money-bill-wave" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Deposit</span>
+                </a>
+
+
+
+                                    <a href="/app/investment" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/sales-emisetup-createlist, /sales-emircv-view, /sales-emireceivecancel-view, /sales-emireschedule-createlist, /sales-emiwaive-view, /sales-emipenalty-view, /micfin-staffloanacopen-createlist, /sales-staffemircv-view, /sales-staffemireceivecancel-view, /micfin-report-emirecovery, /micfin-report-emiinvreceive, /micfin-report-emidisbursement, /micfin-report-emidisbncollect, /micfin-report-emifullypaid, /micfin-report-emiwaiver">
+                    <span>
+                        <i class="fa-solid fas fa-money-check-alt" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Loan</span>
+                </a>
+
+
+
+                                    <a href="/app/collection" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/micfin-report-empcollsum, /micfin-report-memberbalance">
+                    <span>
+                        <i class="fa-solid fas fa-calendar-alt" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Collection</span>
+                </a>
+
+
+
+                                    <a href="/app/sms" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/sms-template-form, /sms-sent-query, /sms-que-form, /sms-que-form2, /micfin-emiinstsmsset-view">
+                    <span>
+                        <i class="fa-solid fas fa-sms" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">SMS</span>
+                </a>
+
+
+
+                                    <a href="/app/settings" class="d-flex flex-column justify-content-center align-items-center py-2 module-link" data-program-names="/micfin-center-createlist, /micfin-centedaychange-createlist, /micfin-centeempchange-createlist, /appauth-dayclosing-transaction, /appauth-branch-createlist, /appauth-employee-createlist, /appauth-director-createlist, /appauth-topbar-notice, /appauth-country-createlist, /appauth-division-createlist, /appauth-district-createlist, /appauth-upazila-createlist, /appauth-union-createlist, /appauth-village-createlist, /appauth-workingarea-createlist">
+                    <span>
+                        <i class="fa-solid fa fa-cog" style="color:#346cb0"></i>
+                      </span>
+                    <span class="text-muted">Settings</span>
+                </a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </footer>
+
+
+                    <!-- <footer class="app-footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Support</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Help Center</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Terms of Service</a>
+          </li>
+        </ul>
+        <div class="copyright"> Copyright © <a href="http://pearttechnology.com/" target="_blank"> Peart Technology
+            Limited. </a>All right reserved. </div>
+      </footer> -->
+        </main>
+        </div>
+
+        <!--Video PopUp-->
+        <!-- Modal -->
+        <div class="modal fade" id="show-video-popup" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div id="id-youtube-modal-body" class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Model for Loading -->
+        <div class="modal ajaxProgress" id="page_loading" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <h5 class="py-3"> Please Wait </h5>
+                        <img style="width:50%" src="/media/logo_image/banglaerpdelar.gif" alt="loading" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="mapModalLabel">Google Map</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="map" style="height: 400px; width: 100%;"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="idPaymentDueModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header bg-warning text-dark justify-content-center">
+                        <div class="d-flex align-items-center w-100 justify-content-center">
+                            <i class="fas fa-exclamation-circle fa-2x mr-2 text-danger"></i>
+                            <h5 class="modal-title font-weight-bold text-center w-100" id="staticBackdropLabel">
+                                Payment Due Alert
+                            </h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 1rem;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="modal-body px-4 py-4">
+                        <div class="text-center mb-3">
+                            <img src="/static/assets/images/logo/payment.png" alt="Payment Due" style="height: 60px;">
+                        </div>
+                        <div class="alert alert-warning border-warning text-center" role="alert">
+                            <h4 class="alert-heading text-danger font-weight-bold mb-3 text-center d-flex justify-content-center align-items-center">
+                                <i class="fas fa-bell mr-2"></i>
+                                <span>
+               Your Bill Is Due! 
+            </span>
+                            </h4>
+                            <p class="lead mb-2"></p>
+                            <hr>
+                            <p class="mb-0 text-muted"> To avoid service interruption, please complete your payment as soon as possible. </p>
+                            <p class="mb-0 text-muted"> For assistance, contact our support team </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success px-4" onclick="window.location.href='/billpay-bill-list'">
+          <i class="fas fa-credit-card mr-1"></i>  Pay Now 
+        </button>
+                        <button type="button" class="btn btn-secondary px-4" data-dismiss="modal">
+          <i class="fas fa-times mr-1"></i>  Close 
+        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal For Google Review  -->
+        <div class="modal fade" id="googleReview" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="googleReviewtLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="" style="min-height: 430px; width: 100%; display: block; margin: auto; overflow-y: hidden;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Branch Selection Modal -->
+        <div class="modal" tabindex="-1" id="branchModal" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Select Branch</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body">
+                        <select id="id_switch_branch_code" class="form-control">
+            <!-- Branch options will be inserted here by the AJAX request -->
+          </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <input type="hidden" name="csrfmiddlewaretoken" value="3GnJtLQiudDcm9r8Y0sHXeX95hFs6ZASMOAmYDQyBSve0cocpDgtr0ErpQAKl3WX">
+
+
+        <script src="/static/assets/vendor/jquery/jquery.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/owlcarousel/owl.carousel.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/sweetalert/sweetalert2.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/bootstrap/js/popper.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/bootstrap/js/bootstrap.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/pace/pace.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/stacked-menu/stacked-menu.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/jquery/select2.min.js" defer></script>
+        <script src="/static/assets/vendor/flatpickr/flatpickr.min.js?v=1.0.6.25"></script>
+        <!-- <script src="/static/assets/vendor/easy-pie-chart/jquery.easypiechart.min.js?v=1.0.6.25"></script>
+  <script src="/static/assets/vendor/chart.js/Chart.min.js?v=1.0.6.25"></script> -->
+        <script src="/static/assets/javascript/theme.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/javascript/pages/sweet-alert.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/handalebars/handlebars-v4.7.7.js?v=1.0.6.25"></script>
+
+        <script src="/static/assets/vendor/datatables/jquery.dataTables.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/datatables/extensions/responsive/dataTables.responsive.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/vendor/datatables/extensions/responsive/responsive.bootstrap4.min.js?v=1.0.6.25"></script>
+        <script src="/static/assets/javascript/pages/dataTables.bootstrap.js?v=1.0.6.25"></script>
+        <script src="/static/assets/javascript/pages/common-parameter-details.js?v=1.0.6.25"></script>
+        <script src="/static/assets/javascript/pages/global-tran-controlor.js?v=1.0.6.25"></script>
+
+        <!--Start of Tawk.to Script>
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65144f6e0f2b18434fdaec2b/1hbblcijh';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    Tawk_API.visitor = {
+        name  : document.getElementById('id_user_full_name').value,
+        email : document.getElementById('id_user_email_address').value
+    };
+    </script>
+  <End of Tawk.to Script-->
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            async function startOnlineChat() {
+                await initializeChat();
+                sessionStorage.setItem('chatInitialized', 'true');
+            }
+
+            async function initializeChat() {
+                // Check session storage to avoid reinitializing the chat
+                if (sessionStorage.getItem('chatInitialized')) {
+                    // Load Tawk.to script dynamically
+                    window.Tawk_API = window.Tawk_API || {}; // Set Tawk_API as a global variable
+                    var Tawk_LoadStart = new Date();
+                    var s1 = document.createElement("script"),
+                        s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = ""; // Replace with the actual chat link or URL variable
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+
+                    // Set onLoad function after script loads
+                    s1.onload = function() {
+                        Tawk_API.onLoad = function() {
+                            console.log("Tawk.to chat loaded successfully.");
+
+                            var VisitorStatus = Tawk_API.isVisitorEngaged();
+                            if (VisitorStatus) {
+                                console.log("User already engaged.");
+                            } else {
+                                const currentURL = new URL(window.location.href);
+                                const hostname = currentURL.hostname;
+                                var online_chat_hash = document.getElementById('id_online_chat_hash').value;
+                                var online_chat_id = document.getElementById('id_online_chat_id').value;
+                                var user_full_name = document.getElementById('id_user_full_name').value + ' (' + hostname + ')';
+                                var user_email_address = document.getElementById('id_user_email_address').value;
+                                var chat_phone_number = document.getElementById('id_chat_phone_number').value;
+
+                                // Login to Tawk.to with user information
+                                Tawk_API.login({
+                                    hash: online_chat_hash,
+                                    userId: online_chat_id,
+                                    name: user_full_name,
+                                    email: user_email_address,
+                                    phone: chat_phone_number,
+                                }, function(error) {
+                                    if (error) {
+                                        console.log("Error during chat login:", error);
+                                    } else {
+                                        console.log("Login Success!");
+                                    }
+                                });
+                            }
+                        };
+                    };
+                } else {
+                    console.log("Chat already initialized, keeping existing session active.");
+                }
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('Chat');
+                initializeChat();
+            });
+        </script>
+
+
+        <script type="text/javascript">
+            function fnAddUrl() {
+                const inputData = {
+                    current_url: window.location.href,
+                    device_id: localStorage.getItem('eKistiDeviceId')
+                };
+                try {
+                    const response = fetch('/appauth-activity-url', {
+                        method: 'POST',
+                        body: JSON.stringify(inputData),
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRFToken': getCSRFToken()
+                        },
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+            fnAddUrl();
+        </script>
+
+
+        <!--End of Tawk.to Script-->
+
+
+
+        <script src="/static/assets/javascript/pages/sales/sales-memberclosing-createlist.js?v=1.0.6.25"></script>
+
+        <script>
+            function showVideoPopup(video_link) {
+                var modalBody = document.getElementById('id-youtube-modal-body');
+
+                // Parse the iframe HTML string to a DOM element
+                var tempDiv = document.createElement('div');
+                tempDiv.innerHTML = video_link.trim();
+                var iframe = tempDiv.firstChild;
+
+                // Adjust iframe dimensions based on device type
+                if (window.matchMedia("(max-width: 767px)").matches) {
+                    iframe.setAttribute('width', '320');
+                    iframe.setAttribute('height', '180');
+                } else {
+                    iframe.setAttribute('width', '800');
+                    iframe.setAttribute('height', '500');
+                }
+
+                // Clear previous content and append the iframe
+                modalBody.innerHTML = '';
+                modalBody.appendChild(iframe);
+                $("#show-video-popup").modal('show');
+                // html=`<source src="${video_link}" type="video/mp4">
+                // Your browser does not support the video Player.`
+                //$("#show-video-popup .modal-body").html(video_link);
+            }
+        </script>
+
+        <script>
+            function adjustModalClass() {
+                var modalDialog = document.getElementById('modal-dialog');
+                if (modalDialog) {
+                    if (window.matchMedia("(max-width: 767px)").matches) {
+                        // If the screen width is less than or equal to 767px (mobile devices)
+                        modalDialog.className = 'modal-dialog modal-sm';
+                    } else {
+                        // If the screen width is greater than 767px (desktop devices)
+                        modalDialog.className = 'modal-dialog modal-xl';
+                    }
+                }
+            }
+
+            // Adjust modal class on page load
+            adjustModalClass();
+
+            // Adjust modal class on window resize
+            window.addEventListener('resize', adjustModalClass);
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116692175-1"></script>
+
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-116692175-1');
+        </script>
+
+        <script>
+            $(function() {
+
+                function getCookie(name) {
+                    var cookieValue = null;
+                    if (document.cookie && document.cookie != '') {
+                        var cookies = document.cookie.split(';');
+                        for (var i = 0; i < cookies.length; i++) {
+                            var cookie = jQuery.trim(cookies[i]);
+                            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                                break;
+                            }
+                        }
+                    }
+                    return cookieValue;
+                }
+
+                var csrftoken = getCookie('csrftoken');
+
+                function csrfSafeMethod(method) {
+                    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+                }
+
+                function sameOrigin(url) {
+                    var host = document.location.host;
+                    var protocol = document.location.protocol;
+                    var sr_origin = '//' + host;
+                    var origin = protocol + sr_origin;
+                    return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+                        (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+                        !(/^(\/\/|http:|https:).*/.test(url));
+                }
+                $.ajaxSetup({
+                    beforeSend: function(xhr, settings) {
+                        if (!csrfSafeMethod(settings.type) && sameOrigin(settings.url)) {
+                            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                        }
+                    }
+                });
+
+            });
+
+            function sweetAlert(icon, title, text, button) {
+                if (button) {
+                    Swal.fire({
+                        position: "center",
+                        icon: icon,
+                        title: title,
+                        text: text,
+                        showConfirmButton: button,
+                    });
+                } else {
+                    Swal.fire({
+                        position: "center",
+                        icon: icon,
+                        title: title,
+                        text: text,
+                        showConfirmButton: button,
+                        timer: 1500
+                    });
+                }
+            }
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    loop: false,
+                    margin: 10,
+                    items: 4,
+                    dots: false
+                });
+            });
+        </script>
+        <script src="/static/assets/javascript/pages/common.js?v=1.0.6.25"></script>
+        <script src="/static/assets/javascript/pages/appauth/appauth-home.js?v=1.0.6.25"></script>
+        <!-- <script src="/static/assets/javascript/pages/hrm/hrm-attendance-js.js?v=1.0.6.25"></script> -->
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"c04b4766be6d4ec48620eba495734887","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
